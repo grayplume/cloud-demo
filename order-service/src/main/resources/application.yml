@@ -36,7 +36,6 @@ userservice: # 给某个微服务配置负载均衡规则，这里是userservice
   ribbon:
 #    enabled: false
     NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则
-
 ribbon:
   eager-load:
     enabled: true #开启饥饿加载
